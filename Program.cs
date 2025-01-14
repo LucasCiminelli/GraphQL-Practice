@@ -1,6 +1,7 @@
 using GraphQL.Server.Ui.Voyager;
 using GraphQLDirector.Data;
 using GraphQLDirector.GraphQL;
+using GraphQLDirector.GraphQL.DataDirector;
 using GraphQLDirector.GraphQL.DataVideo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +25,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString
 
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
-    .AddType<VideoType>()
+    .AddTypes(typeof(DirectorType), typeof(VideoType))
     .AddProjections()
     .AddMutationType<Mutation>()
     .AddFiltering()
