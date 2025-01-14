@@ -211,3 +211,4 @@ C:\GraphQLNET\GraphQLNET\GraphQLDirector\obj\Debug\net8.0\refint\GraphQLDirector
 C:\GraphQLNET\GraphQLNET\GraphQLDirector\obj\Debug\net8.0\GraphQLDirector.pdb
 C:\GraphQLNET\GraphQLNET\GraphQLDirector\obj\Debug\net8.0\GraphQLDirector.genruntimeconfig.cache
 C:\GraphQLNET\GraphQLNET\GraphQLDirector\obj\Debug\net8.0\ref\GraphQLDirector.dll
+C:\GraphQLNET\GraphQLNET\GraphQLDirector\obj\Debug\net8.0\GraphQLDirector.sourcelink.json

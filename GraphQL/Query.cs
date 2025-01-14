@@ -5,6 +5,7 @@ namespace GraphQLDirector.GraphQL
 {
     public class Query
     {
+        [UsePaging]
         [UseProjection]
         [UseFiltering]
         [UseSorting]

@@ -26,6 +26,7 @@ builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
     .AddType<VideoType>()
     .AddProjections()
+    .AddMutationType<Mutation>()
     .AddFiltering()
     .AddSorting();
 
